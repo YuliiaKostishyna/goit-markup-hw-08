@@ -1,0 +1,44 @@
+.skils__container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+    margin: 0 auto;
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.skils__title {
+    color: var(--text-nav-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.skils__card {
+    max-width: 370px;
+    position: relative;
+}
+
+.skils__item {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    left: 0;
+    bottom: 0;
+    background: rgba(47, 48, 58, 0.8);
+    padding: 27px;
+}
+
+.skils__text {
+    color: var(--footer-text-logo-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
