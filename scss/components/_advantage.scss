@@ -1,21 +1,29 @@
 .advantage {
-    // padding-top: 94px;
-    // padding-bottom: 94px;
-padding: 60px 15px;
+padding: 60px 0;
+
+@media screen and (min-width: 1200px){
+    
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
 &__card {
-    // max-width: 270px;
-    width: 100%;
-    @media screen and (min-width: 768px) {
-        width: calc((100% - 30px) / 2);
-    }
-        @media screen and (min-width: 1200px) {
-            width: calc((100% - 90px) / 4);
-        }
+    
+width: 100%;
+
+@media screen and (min-width: 768px) {
+
+width: calc((100% - 30px) / 2);
+}
+@media screen and (min-width: 1200px) {
+
+width: calc((100% - 90px) / 4);
+          
+}
 }
 
 &__icons {
-    // width: 270px;
+    
     height: 120px;
     display: flex;
     align-items: center;
@@ -36,19 +44,23 @@ padding: 60px 15px;
     margin-bottom: 10px;
 
 @media screen and (max-width: 767px) {
+
     text-align: center;
 }
 }
 }
 .advantage .details {
     margin-top: 0;
-    @media screen and (max-width: 767px) {
-        flex-direction: column;
+
+@media screen and (max-width: 767px) {
+
+flex-direction: column;
     }
 
-    @media screen and (min-width: 768px) {
-        flex-direction: row;
-        flex-wrap: wrap;
+@media screen and (min-width: 768px) {
+
+flex-direction: row;
+flex-wrap: wrap;
        
     }
 }

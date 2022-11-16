@@ -4,18 +4,20 @@
 
 @media screen and (min-width: 1200px) {
     padding-top: 94px;
-        padding-bottom: 94px;
+    padding-bottom: 94px;
 }
 &__title {
     color: var(--text-nav-color);
     font-weight: 700;
     font-size: 28px;
-        line-height: 1.18;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
+
     @media screen and (min-width: 1200px) {
-        font-size: 36px;
-            line-height: 1.16;
+
+    font-size: 36px;
+    line-height: 1.16;
     }
 }
 
@@ -29,19 +31,23 @@
     margin-top: 30px;
 
     @media screen and (min-width: 1200px) {
-        margin-top: 50px;
+
+    margin-top: 50px;
     }
 }
 
 &__card {
     width: calc((100% - 30px) / 2);
     height: 92px;
+
     @media screen and (min-width: 768px) {
-        width: calc((100% - 60px) / 3);
+
+    width: calc((100% - 60px) / 3);
         }
-                @media screen and (min-width: 1200px) {
-                    width: calc((100% - 150px) / 6);
-                }
+    @media screen and (min-width: 1200px) {
+
+    width: calc((100% - 150px) / 6);
+         }
 }
 
 &__icon {
